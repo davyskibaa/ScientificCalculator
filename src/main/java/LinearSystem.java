@@ -17,7 +17,7 @@ public class LinearSystem {
 
     public Double[] solve() {
         Double[][] tempMatrix = new Double[size][size];
-        Double[] x = new Double[3];
+        Double[] x = new Double[size];
         Double detCohef = this.calculateCoeficientsMatrixDeterminant();
         for (int i = 0; i < size; i++) {
             for (int k = 0; k < size; k++) {

@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ad9780b-9c59-4009-a020-1311f669b7e3" name="Changes" comment="changing LinearSystem.java">
+    <list default="true" id="8ad9780b-9c59-4009-a020-1311f669b7e3" name="Changes" comment="some changes v2">
       <change afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LinearSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinearSystem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,7 @@
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="JUnit.LinearSystemTest">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Application" />
       <module name="ScientificCalculator" />
@@ -86,9 +87,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LinearSystemTest" />
         <item itemvalue="Application.Application" />
         <item itemvalue="JUnit.All in ScientificCalculator" />
-        <item itemvalue="JUnit.LinearSystemTest" />
         <item itemvalue="JUnit.QuadraticEquationTest" />
         <item itemvalue="JUnit.LinearEquationTest" />
       </list>
@@ -102,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665155034470</updated>
-      <workItem from="1665155035577" duration="3108000" />
+      <workItem from="1665155035577" duration="5928000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1665155058060</created>
@@ -195,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665157206341</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="some changes v2">
+      <created>1665158390588</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1665158390588</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +234,7 @@
     <MESSAGE value="changing LinearEquation.java" />
     <MESSAGE value="implementing LinearSystem.java" />
     <MESSAGE value="changing LinearSystem.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="changing LinearSystem.java" />
+    <MESSAGE value="some changes v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="some changes v2" />
   </component>
 </project>

@@ -30,7 +30,7 @@ public class QuadraticEquation {
             System.out.print("The equation has solution: " + x);
         }
         else if (x1 != 0 || x2 != 0) {
-            System.out.print("The equation has solutions: x1 = " + x1 + ", x2 = ");
+            System.out.print("The equation has solutions: x1 = " + x1 + ", x2 = " + x2);
         }
         else {
             System.out.print(output);

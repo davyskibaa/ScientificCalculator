@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ad9780b-9c59-4009-a020-1311f669b7e3" name="Changes" comment="tests for solving quadratic equations">
-      <change afterPath="$PROJECT_DIR$/src/test/java/LinearSystemTest.java" afterDir="false" />
+    <list default="true" id="8ad9780b-9c59-4009-a020-1311f669b7e3" name="Changes" comment="changing LinearSystem.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/QuadraticEquationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QuadraticEquationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +41,22 @@
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Application" />
+      <module name="ScientificCalculator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in ScientificCalculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ScientificCalculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LinearEquationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ScientificCalculator" />
       <option name="PACKAGE_NAME" value="" />
@@ -53,8 +66,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LinearSystemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ScientificCalculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LinearSystemTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuadraticEquationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ScientificCalculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QuadraticEquationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application" />
+        <item itemvalue="JUnit.All in ScientificCalculator" />
+        <item itemvalue="JUnit.LinearSystemTest" />
+        <item itemvalue="JUnit.QuadraticEquationTest" />
         <item itemvalue="JUnit.LinearEquationTest" />
       </list>
     </recent_temporary>
@@ -67,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665155034470</updated>
-      <workItem from="1665155035577" duration="326000" />
+      <workItem from="1665155035577" duration="3108000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1665155058060</created>
@@ -90,7 +125,77 @@
       <option name="project" value="LOCAL" />
       <updated>1665155281817</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="tests for solving linear systems">
+      <created>1665155388839</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665155388839</updated>
+    </task>
+    <task id="LOCAL-00005" summary="some changes v1">
+      <created>1665155410205</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665155410205</updated>
+    </task>
+    <task id="LOCAL-00006" summary="implementing QuadraticEquation.java">
+      <created>1665156240142</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665156240142</updated>
+    </task>
+    <task id="LOCAL-00007" summary="changing QuadraticEquation.java v1">
+      <created>1665156604762</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665156604762</updated>
+    </task>
+    <task id="LOCAL-00008" summary="changing QuadraticEquation.java v2">
+      <created>1665156706636</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665156706636</updated>
+    </task>
+    <task id="LOCAL-00009" summary="implementing additional class">
+      <created>1665156758521</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665156758521</updated>
+    </task>
+    <task id="LOCAL-00010" summary="implementing LinearEquation.java">
+      <created>1665156833352</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665156833352</updated>
+    </task>
+    <task id="LOCAL-00011" summary="changing LinearEquation.java">
+      <created>1665156872490</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1665156872490</updated>
+    </task>
+    <task id="LOCAL-00012" summary="implementing LinearSystem.java">
+      <created>1665157033095</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665157033095</updated>
+    </task>
+    <task id="LOCAL-00013" summary="changing LinearSystem.java">
+      <created>1665157206341</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1665157206341</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +216,16 @@
     <MESSAGE value="init project" />
     <MESSAGE value="tests for solving linear equations" />
     <MESSAGE value="tests for solving quadratic equations" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests for solving quadratic equations" />
+    <MESSAGE value="tests for solving linear systems" />
+    <MESSAGE value="some changes v1" />
+    <MESSAGE value="implementing QuadraticEquation.java" />
+    <MESSAGE value="changing QuadraticEquation.java v1" />
+    <MESSAGE value="changing QuadraticEquation.java v2" />
+    <MESSAGE value="implementing additional class" />
+    <MESSAGE value="implementing LinearEquation.java" />
+    <MESSAGE value="changing LinearEquation.java" />
+    <MESSAGE value="implementing LinearSystem.java" />
+    <MESSAGE value="changing LinearSystem.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="changing LinearSystem.java" />
   </component>
 </project>

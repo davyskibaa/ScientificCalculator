@@ -3,6 +3,9 @@ public class QuadraticEquation {
     private String output;
 
     public void counting(double a, double b, double c) {
+        if (a == 0 || b == 0) {
+            throw new IllegalCoefficientException("The equation is not quadratic");
+        }
         if (c == 0) {
             x1 =  0;
             x2 = -b;

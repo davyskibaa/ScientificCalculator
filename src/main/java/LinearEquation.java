@@ -3,7 +3,13 @@ public class LinearEquation {
     private double x;
 
     public void count(double a, double b) {
-        x = (-(b / a));
+        if (a == 0 && b == 0) {
+            throw new IllegalCoefficientException("Every real number is a solution!");
+        } else if (a == 0) {
+            throw new IllegalCoefficientException("Equation is not solvable!");
+        } else {
+            x = (-(b / a));
+        }
     }
 
     public void printSolution() {

@@ -16,7 +16,21 @@ public class LinearSystem {
     }
 
     public Double[] solve() {
+        Double[][] tempMatrix = new Double[size][size];
         Double[] x = new Double[3];
+        Double detCohef = this.calculateCoeficientsMatrixDeterminant();
+        for (int i = 0; i < size; i++) {
+            for (int k = 0; k < size; k++) {
+                for (int l = 0; l < size; l++) {
+                    tempMatrix[k][l] = A[k][l];
+                }
+            }
+            for (int k = 0; k < size; k++) {
+                tempMatrix[k][i] = B[k];
+            }
+            Double det = this.calculateDeterminant(tempMatrix, size);
+            x[i] = det / detCohef;
+        }
         return x;
     }
 
@@ -45,6 +59,17 @@ public class LinearSystem {
     public Double[][] copyMatrix(Double[][] m, int size, int col) {
         int sizeM = size - 1;
         Double[][] result = new Double[sizeM][sizeM];
+        int nI = 0;
+        for (int i = 1; i < size; i++) {
+            int nJ = 0;
+            for (int j = 0; j < size; j++) {
+                if (j != col) {
+                    result[nI][nJ] = m[i][j];
+                    nJ++;
+                }
+            }
+            nI++;
+        }
         return result;
     }
 }
